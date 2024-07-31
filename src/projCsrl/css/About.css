@@ -1,0 +1,78 @@
+.bg1 {
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    /* height: 60vh; */
+    padding: 1.1rem;
+    display: flex;
+}
+
+.about {
+    color: blue;
+}
+
+.bg1 .f p {
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+.button button {
+    padding: 0.8rem;
+    margin: 0 3rem 0 0px;
+    border-radius: 60px;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 20px;
+    transition: all 1s;
+
+}
+
+.button button:nth-child(1) {
+    border: 1px solid rgb(72, 0, 255);
+
+}
+
+
+.button button:nth-child(1):hover {
+    transition: 0.2s;
+    border: 1px solid rgb(55, 54, 54);
+    background-color: rgb(55, 54, 54);
+    color: white;
+    padding-right: 2rem;
+}
+
+
+.button button:nth-child(2) {
+    background-color: yellow;
+    border: 1px solid yellow !important;
+    /* transition: background-color 0.5s ease-in-out; */
+}
+
+
+
+.button button:nth-child(2):hover {
+    padding-right: 2rem;
+
+}
+.s{
+    /* border: 1px solid yellow !important; */
+    margin: auto;
+}
+/* media css */
+.bg1{
+    margin-top: 320px;
+    padding-top: 8rem;
+}
+@media (max-width: 800px) {
+.bg1{
+    display: block;
+    margin-top: 320px;
+    padding-top: 8rem;
+}
+.s{
+    margin-top: 1rem;
+}
+
+}
